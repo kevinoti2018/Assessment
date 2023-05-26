@@ -1,0 +1,45 @@
+.l-container{
+    display: grid;
+    grid-template-columns: 28rem  1fr;
+    height: 100vh;
+
+}
+
+.left{
+    background-color:#013D29 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:  white;
+}
+h1{
+    margin-bottom: 1rem;
+}
+span{
+    color:  #f68b1e
+}
+p{
+    font-size: 1.1rem;
+}
+button {
+    background-color: #f68b1e;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 9rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img{
+    width: 26rem;
+    padding: .5rem;
+}

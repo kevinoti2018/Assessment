@@ -1,0 +1,50 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    background-color: #013D29;
+    width: 25rem;
+    height: 28rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    color: white;
+    font-size: 1.1rem;
+}
+input{
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: 0.5rem;
+}
+button{
+    width: 83%;
+    height: 4rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: #f68b1e;
+    color:white;
+    font-size: 1.1rem;
+    color: white;
+
+}
+.err{
+    color: red;
+    width: 80%;
+}
+.disabled-button {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+  }
